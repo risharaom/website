@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code4Cause</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <div class="logo-badge">
+              <span>C4C</span>
+            </div>
+            <span class="logo-text">Code4Cause</span>
+          </a>
+        </div>
+
+        <nav class="desktop-nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="mission.html" class="nav-link">Our Mission</a></li>
+            <li><a href="projects.html" class="nav-link">Upcoming Projects</a></li>
+            <li><a href="meetings.html" class="nav-link">Meetings</a></li>
+          </ul>
+        </nav>
+
+        <button class="mobile-menu-button" id="menuButton">
+          <span class="menu-icon" id="menuIcon">☰</span>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="mission.html" class="mobile-nav-link">Our Mission</a></li>
+          <li><a href="projects.html" class="mobile-nav-link">Upcoming Projects</a></li>
+          <li><a href="meetings.html" class="mobile-nav-link">Meetings</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-section">
+        <div class="hero-grid">
+          <div class="hero-text fade-in">
+            <h1 class="hero-title">
+              <span class="purple-text">This is </span>
+              Code4Cause
+            </h1>
+            <p class="hero-description">
+              Where teens empower youth to turn 
+              <span class="highlight">code</span>, 
+              <span class="highlight">analytics</span>, and 
+              <span class="highlight">advocacy </span>
+              into <span class="highlight purple-text">impact</span>.
+            </p>
+            <div class="button-group">
+              <button class="button primary-button">
+                Join Our Community
+              </button>
+              <button class="button outline-button">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="overview-card fade-in">
+            <h2 class="card-title">Overview</h2>
+            <p class="card-text">
+              Code4Cause is a youth-led initiative that brings together passionate teens to develop
+              technical solutions for social and environmental challenges. We believe in the power of 
+              technology to create positive change in our communities.
+            </p>
+            <p class="card-text">
+              Through collaborative projects, workshops, and mentorship, we help young people develop 
+              coding skills while addressing real-world problems. Join us in our mission to make a 
+              difference through technology!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section">
+        <h2 class="section-title">What We Do</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon green-icon">
+              <i data-lucide="tree-deciduous"></i>
+            </div>
+            <h3 class="service-title">Environmental Tech</h3>
+            <p class="service-description">
+              Developing applications and solutions to address environmental challenges and promote sustainability.
+            </p>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon purple-icon">
+              <i data-lucide="chart-bar"></i>
+            </div>
+            <h3 class="service-title">Data for Good</h3>
+            <p class="service-description">
+              Using data analytics and visualization to tell compelling stories and drive evidence-based action.
+            </p>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon blue-icon">
+              <i data-lucide="lightbulb"></i>
+            </div>
+            <h3 class="service-title">Community Advocacy</h3>
+            <p class="service-description">
+              Empowering youth with technology skills to advocate for positive change in their communities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">© <span id="currentYear"></span> Code4Cause. All rights reserved.</p>
+        <p class="tagline">Empowering teens to create impact through code.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

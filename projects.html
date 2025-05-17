@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Projects - Code4Cause</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <div class="logo-badge">
+              <span>C4C</span>
+            </div>
+            <span class="logo-text">Code4Cause</span>
+          </a>
+        </div>
+
+        <nav class="desktop-nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="mission.html" class="nav-link">Our Mission</a></li>
+            <li><a href="projects.html" class="nav-link active">Upcoming Projects</a></li>
+            <li><a href="meetings.html" class="nav-link">Meetings</a></li>
+          </ul>
+        </nav>
+
+        <button class="mobile-menu-button" id="menuButton">
+          <span class="menu-icon" id="menuIcon">☰</span>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="mission.html" class="mobile-nav-link">Our Mission</a></li>
+          <li><a href="projects.html" class="mobile-nav-link">Upcoming Projects</a></li>
+          <li><a href="meetings.html" class="mobile-nav-link">Meetings</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="projects-header">
+        <h1 class="projects-title">Upcoming Projects</h1>
+        <p class="projects-description">
+          Check out our current and upcoming projects that aim to make a positive impact through technology.
+          Click on each project to learn more.
+        </p>
+      </section>
+
+      <section class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Wildlife Tracker App">
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Wildlife Tracker App</h3>
+            <p class="project-description">A mobile application to help track and monitor local wildlife populations.</p>
+            <div class="project-stats">
+              <span class="project-status">Status: In Development</span>
+              <span class="project-date">Launch: June 2025</span>
+            </div>
+            <button class="expand-button" data-project="wildlife-details">
+              <span>More Details</span>
+              <i data-lucide="chevron-down"></i>
+            </button>
+            <div class="project-expanded-details" id="wildlife-details">
+              <p>The Wildlife Tracker App will allow citizen scientists to document wildlife sightings in local ecosystems. Data collected will assist conservation efforts and environmental research.</p>
+              <p>Tech Stack: Flutter, Firebase, Machine Learning for species identification</p>
+              <p>Looking for team members with mobile development experience!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Community Resource Map">
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Community Resource Map</h3>
+            <p class="project-description">Interactive map showing free and low-cost resources for underserved communities.</p>
+            <div class="project-stats">
+              <span class="project-status">Status: Planning</span>
+              <span class="project-date">Launch: August 2025</span>
+            </div>
+            <button class="expand-button" data-project="resource-details">
+              <span>More Details</span>
+              <i data-lucide="chevron-down"></i>
+            </button>
+            <div class="project-expanded-details" id="resource-details">
+              <p>This web application will map and categorize community resources like food banks, healthcare services, and educational opportunities to help connect those in need with available support.</p>
+              <p>Tech Stack: JavaScript, React, Leaflet Maps API, MongoDB</p>
+              <p>Seeking collaborators with database and mapping experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Climate Data Dashboard">
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Climate Data Dashboard</h3>
+            <p class="project-description">Visualizing local climate data to increase awareness and drive action.</p>
+            <div class="project-stats">
+              <span class="project-status">Status: Recruiting</span>
+              <span class="project-date">Launch: September 2025</span>
+            </div>
+            <button class="expand-button" data-project="climate-details">
+              <span>More Details</span>
+              <i data-lucide="chevron-down"></i>
+            </button>
+            <div class="project-expanded-details" id="climate-details">
+              <p>This interactive dashboard will visualize climate change data for our local region, making complex environmental data accessible to everyone, especially students and policymakers.</p>
+              <p>Tech Stack: Python, D3.js, React, Tableau</p>
+              <p>Looking for team members with data visualization and analysis skills!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="join-projects">
+        <div class="join-card">
+          <h2>Want to Get Involved?</h2>
+          <p>We're always looking for passionate volunteers to join our project teams!</p>
+          <button class="button primary-button">Contact Us</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">© <span id="currentYear"></span> Code4Cause. All rights reserved.</p>
+        <p class="tagline">Empowering teens to create impact through code.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

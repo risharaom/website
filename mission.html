@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Mission - Code4Cause</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <div class="logo-badge">
+              <span>C4C</span>
+            </div>
+            <span class="logo-text">Code4Cause</span>
+          </a>
+        </div>
+
+        <nav class="desktop-nav">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="mission.html" class="nav-link active">Our Mission</a></li>
+            <li><a href="projects.html" class="nav-link">Upcoming Projects</a></li>
+            <li><a href="meetings.html" class="nav-link">Meetings</a></li>
+          </ul>
+        </nav>
+
+        <button class="mobile-menu-button" id="menuButton">
+          <span class="menu-icon" id="menuIcon">☰</span>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="mission.html" class="mobile-nav-link">Our Mission</a></li>
+          <li><a href="projects.html" class="mobile-nav-link">Upcoming Projects</a></li>
+          <li><a href="meetings.html" class="mobile-nav-link">Meetings</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="mission-header">
+        <h1 class="mission-title">Our Mission</h1>
+        <div class="mission-statement-card">
+          <p class="mission-statement">
+            To empower the next generation of technology leaders to use their skills for social good 
+            and environmental sustainability.
+          </p>
+          <p class="mission-supporting-text">
+            We believe that young people have the power to create meaningful change through technology. 
+            Code4Cause provides the platform, mentorship, and community to make this happen.
+          </p>
+        </div>
+      </section>
+
+      <section class="mission-content">
+        <div class="why-card">
+          <h2 class="card-subtitle">Why?</h2>
+          <div class="card-content">
+            <p class="card-text">
+              Today's youth are facing unprecedented global challenges – from climate change to social 
+              inequality. At the same time, they have access to powerful technologies that can help address 
+              these issues.
+            </p>
+            <p class="card-text">
+              <strong>The problem:</strong> Many young people lack the technical skills, mentorship, 
+              and community support needed to apply their passion for change through technology.
+            </p>
+            <p class="card-text">
+              <strong>Our solution:</strong> Code4Cause bridges this gap by providing a supportive community,
+              technical education, and meaningful projects that make a difference. We connect passionate
+              youth with the tools, knowledge, and opportunities to create technology-based solutions for
+              real-world problems.
+            </p>
+          </div>
+        </div>
+
+        <div class="impact-card">
+          <h2 class="card-subtitle">Impact</h2>
+          <div class="card-content">
+            <p class="card-text">
+              Since our founding, Code4Cause has:
+            </p>
+            <ul class="impact-list">
+              <li>Engaged over 100 young people in developing technical skills for positive impact</li>
+              <li>Completed 15 community-focused technology projects</li>
+              <li>Partnered with 8 local environmental organizations</li>
+              <li>Created 5 open-source tools for environmental monitoring and advocacy</li>
+              <li>Hosted 20+ workshops on coding, data analysis, and digital advocacy</li>
+            </ul>
+            <p class="card-text">
+              Our work empowers young people to be not just consumers of technology, but creators who
+              use their skills to make the world a better place. Through collaborative coding and data 
+              projects, we're building a community of technically skilled change-makers.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">© <span id="currentYear"></span> Code4Cause. All rights reserved.</p>
+        <p class="tagline">Empowering teens to create impact through code.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
