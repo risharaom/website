@@ -9,24 +9,24 @@
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <div class="header-content">
-        <div class="logo">
-          <a href="index.html" class="logo-link">
-            <div class="logo-badge">
-              <span>C4C</span>
+    <div class="container">
+        <header class="header">
+          <div class="header-content">
+            <div class="logo">
+              <a href="index.html" class="logo-link">
+                <div class="logo-badge">
+                    <img src="logo.jpg" alt="Logo" width="50" height="50" />
+                </div>
+                <span class="logo-text">Code4Cause</span>
+              </a>
             </div>
-            <span class="logo-text">Code4Cause</span>
-          </a>
-        </div>
 
         <nav class="desktop-nav">
           <ul class="nav-list">
             <li><a href="index.html" class="nav-link">Home</a></li>
             <li><a href="mission.html" class="nav-link">Our Mission</a></li>
             <li><a href="projects.html" class="nav-link active">Upcoming Projects</a></li>
-            <li><a href="meetings.html" class="nav-link">Meetings</a></li>
+            <li><a href="meetings.html" class="nav-link">Team</a></li>
           </ul>
         </nav>
 
@@ -40,7 +40,7 @@
           <li><a href="index.html" class="mobile-nav-link">Home</a></li>
           <li><a href="mission.html" class="mobile-nav-link">Our Mission</a></li>
           <li><a href="projects.html" class="mobile-nav-link">Upcoming Projects</a></li>
-          <li><a href="meetings.html" class="mobile-nav-link">Meetings</a></li>
+          <li><a href="meetings.html" class="mobile-nav-link">Team</a></li>
         </ul>
       </div>
     </header>
@@ -57,28 +57,26 @@
       <section class="projects-grid">
         <div class="project-card">
           <div class="project-image">
-            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Wildlife Tracker App">
+            <img src="https://preview.redd.it/why-does-mexico-have-much-less-trees-in-town-cities-v0-j0y50opy0mwd1.png?width=640&crop=smart&auto=webp&s=0492eedb93042a267f75d176361feadbdec73f23" alt="Wildlife Tracker App">
           </div>
           <div class="project-details">
-            <h3 class="project-title">Wildlife Tracker App</h3>
-            <p class="project-description">A mobile application to help track and monitor local wildlife populations.</p>
+            <h3 class="project-title">GreenSight</h3>
+            <p class="project-description">A machine learning model dedicated to placing more trees in the bay area</p>
             <div class="project-stats">
               <span class="project-status">Status: In Development</span>
-              <span class="project-date">Launch: June 2025</span>
+              <!-- <span class="project-date">Launch: June 2025</span> -->
             </div>
             <button class="expand-button" data-project="wildlife-details">
               <span>More Details</span>
               <i data-lucide="chevron-down"></i>
             </button>
             <div class="project-expanded-details" id="wildlife-details">
-              <p>The Wildlife Tracker App will allow citizen scientists to document wildlife sightings in local ecosystems. Data collected will assist conservation efforts and environmental research.</p>
-              <p>Tech Stack: Flutter, Firebase, Machine Learning for species identification</p>
-              <p>Looking for team members with mobile development experience!</p>
+              <p>This project is a machine learning model focused on promoting sustainability and environmental equity by identifying areas in the Bay Area with low tree coverage. Using geospatial data and greenery percentages, the model analyzes neighborhoods and predicts the average greenery within a 0.1-mile radius of given coordinates. By highlighting zones with limited vegetation, the model helps prioritize where new trees should be planted. The goal is to support urban reforestation efforts, reduce carbon emissions, and create healthier, greener communities through data-driven insights.</p>
             </div>
           </div>
         </div>
 
-        <div class="project-card">
+        <!-- <div class="project-card">
           <div class="project-image">
             <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Community Resource Map">
           </div>
@@ -123,13 +121,13 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="join-projects">
         <div class="join-card">
           <h2>Want to Get Involved?</h2>
           <p>We're always looking for passionate volunteers to join our project teams!</p>
-          <button class="button primary-button">Contact Us</button>
+          <p> <strong> Contact Us at @code4cause.contact@gmail.com </strong></p>
         </div>
       </section>
     </main>
@@ -137,6 +135,7 @@
     <footer class="footer">
       <div class="footer-content">
         <p class="copyright">© <span id="currentYear"></span> Code4Cause. All rights reserved.</p>
+        <p class="tagline">Contact us @code4cause.contact@gmail.com or our insta :@code4cause_ </p>
         <p class="tagline">Empowering teens to create impact through code.</p>
       </div>
     </footer>
