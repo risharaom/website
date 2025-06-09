@@ -7,110 +7,185 @@
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    .core-team-grid, .team-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .team-member {
+      width: 280px;
+      text-align: center;
+      padding: 15px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+    }
+    .team-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover; /* This crops and fits the image neatly */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-          <div class="header-content">
-            <div class="logo">
-              <a href="index.html" class="logo-link">
-                <div class="logo-badge">
-                    <img src="logo.jpg" alt="Logo" width="50" height="50" />
-                </div>
-                <span class="logo-text">Code4Cause</span>
-              </a>
-            </div>
-
-        <nav class="desktop-nav">
-          <ul class="nav-list">
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="mission.html" class="nav-link">Our Mission</a></li>
-            <li><a href="projects.html" class="nav-link">Upcoming Projects</a></li>
-            
-            <li><a href="meetings.html" class="nav-link active">Team</a></li>
-          </ul>
-        </nav>
-
-        <button class="mobile-menu-button" id="menuButton">
-          <span class="menu-icon" id="menuIcon">☰</span>
-        </button>
+<div class="container">
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <a href="index.html" class="logo-link">
+          <div class="logo-badge">
+            <img src="logo.jpg" alt="Logo" width="50" height="50" />
+          </div>
+          <span class="logo-text">Code4Cause</span>
+        </a>
       </div>
-
-      <div class="mobile-nav" id="mobileNav">
-        <ul class="mobile-nav-list">
-          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
-          <li><a href="mission.html" class="mobile-nav-link">Our Mission</a></li>
-          <li><a href="projects.html" class="mobile-nav-link">Upcoming Projects</a></li>
-          <li><a href="meetings.html" class="mobile-nav-link">Team</a></li>
+      <nav class="desktop-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="mission.html" class="nav-link">Our Mission</a></li>
+          <li><a href="projects.html" class="nav-link">Upcoming Projects</a></li>
+          <li><a href="meetings.html" class="nav-link active">Team</a></li>
         </ul>
+      </nav>
+      <button class="mobile-menu-button" id="menuButton">
+        <span class="menu-icon" id="menuIcon">☰</span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="mission.html" class="mobile-nav-link">Our Mission</a></li>
+        <li><a href="projects.html" class="mobile-nav-link">Upcoming Projects</a></li>
+        <li><a href="meetings.html" class="mobile-nav-link">Team</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="main-content">
+    <section class="mission-header">
+      <h1 class="mission-title">Meet the Team</h1>
+      <div class="mission-statement-card">
+        <p class="mission-statement">
+          We are a group of student changemakers using technology to make a difference.
+        </p>
+        <p class="mission-supporting-text">
+          Our team brings together coders, designers, data scientists, and leaders who believe in using tech for good. Whether it’s building models to save trees or organizing community events, we’re united by one goal: empowering youth through impactful innovation.
+        </p>
       </div>
-    </header>
+    </section>
+    <section class="mission-content">
+      <div class="why-card">
+        <h2 class="card-subtitle">Core Team</h2>
+        <div class="core-team-grid">
+          <div class="team-member">
+            <img src="risha.jpg" alt="Risha Rao" class="team-photo">
+            <h3 class="card-subtitle">Risha Rao</h3>
+            <p class="card-text"><strong>Role:</strong> CTO</p>
+            <p class="card-text">As Chief Technology Officer at Code4Cause, I lead the development and strategy behind all technical initiatives. I manage our website, ensuring it remains a functional, engaging hub for our community. I guide students through hands-on coding sessions, helping them build real-world projects with purpose. I also design reusable code templates and architect machine learning models that students can explore, expand, and customize. My work ensures that every participant—regardless of experience—has a strong technical foundation and the tools to turn ideas into impactful, data-driven solutions. I collaborate closely with the team to keep our tech aligned with our mission of empowering youth through innovation.</p>
+          </div>
+          <div class="team-member">
+            <img src="sanvi1.jpg" alt="Sanvi Bharadwaj" class="team-photo">
+            <h3 class="card-subtitle">Sanvi Bharadwaj</h3>
+            <p class="card-text"><strong>Role:</strong> CMO</p>
+            <p class="card-text">As Chief Marketing Officer at Code4Cause, I lead the strategy behind our outreach team. I design campaigns that amplify our mission, engage students and families, and grow our platform across digital and community spaces. Beyond social media and visual branding, I also coordinate advocacy efforts, contacting local city councils and community leaders to present student research and push for data-driven change. I work closely with the team to align messaging with our values and bring visibility to the work our students and team do.</p>
+          </div>
+          <div class="team-member">
+            <img src="aarya.JPG" alt="Aarya Patel" class="team-photo">
+            <h3 class="card-subtitle">Aarya Patel</h3>
+            <p class="card-text"><strong>Role:</strong> COO</p>
+            <p class="card-text">s Chief Operating Officer, I coordinate our program operations, develop organizational systems, and ensure the smooth execution of our 8-week sessions. I work closely with all teams to align our efforts and oversee program logistics from planning to implementation. I manage our timelines, resources, and help solve challenges that arise along the way.</p>
+          </div>
+        </div>
+      </div>
+      <div class="why-card">
+        <h2 class="card-subtitle">Technical Team</h2>
+        <div class="team-row">
+          <div class="team-member">
+            <img src="anshul.jpeg" alt="Anshul" class="team-photo">
+            <h3 class="card-subtitle">Anshul Matapurkar</h3>
+            <p class="card-text"><strong>Role:</strong> Machine Learning Lead</p>
+          </div>
 
-    <main class="main-content">
-      <section class="mission-header">
-        <h1 class="mission-title">Meet the Team</h1>
-        <div class="mission-statement-card">
-          <p class="mission-statement">
-            We are a group of student changemakers using technology to make a difference.
-          </p>
-          <p class="mission-supporting-text">
-            Our team brings together coders, designers, data scientists, and leaders who believe in using tech for good. Whether it’s building models to save trees or organizing community events, we’re united by one goal: empowering youth through impactful innovation.
-          </p>
-        </div>
-      </section>
-    
-      <section class="mission-content">
-        <div class="why-card">
-          <h2 class="card-subtitle">Core Team</h2>
-          <div class="card-content">
-    
-            <div class="team-member">
-              <img src="risha.jpg" alt="Risha Rao" class="team-photo">
-              <h3 class="card-subtitle">Risha Rao</h3>
-              <p class="card-text"><strong>Role:</strong> CTO</p>
-              <p class="card-text">As Chief Technology Officer at Code4Cause, I lead the development and strategy behind all technical initiatives. I manage our website, ensuring it remains a functional, engaging hub for our community. I guide students through hands-on coding sessions, helping them build real-world projects with purpose. I also design reusable code templates and architect machine learning models that students can explore, expand, and customize. My work ensures that every participant—regardless of experience—has a strong technical foundation and the tools to turn ideas into impactful, data-driven solutions. I collaborate closely with the team to keep our tech aligned with our mission of empowering youth through innovation.</p>
-            </div>
-    
-            <div class="team-member">
-              <img src="sanvi1.jpg" alt="Sanvi Bharadwaj" class="team-photo">
-              <h3 class="card-subtitle">Sanvi Bharadwaj</h3>
-              <p class="card-text"><strong>Role:</strong> CMO</p>
-              <p class="card-text">As Chief Marketing Officer at Code4Cause, I lead the strategy behind our outreach team. I design campaigns that amplify our mission, engage students and families, and grow our platform across digital and community spaces. Beyond social media and visual branding, I also coordinate advocacy efforts, contacting local city councils and community leaders to present student research and push for data-driven change. I work closely with the team to align messaging with our values and bring visibility to the work our students and team do.</p>
-            </div>
-    
-            <div class="team-member">
-              <img src="aarya.JPG" alt="Aarya Patel" class="team-photo">
-              <h3 class="card-subtitle">Aarya Patel</h3>
-              <p class="card-text"><strong>Role:</strong> COO</p>
-              <p class="card-text">As Chief Operating Officer, I coordinate our program operations, develop organizational systems, and ensure the smooth execution of our 8-week sessions. I work closely with all teams to align our efforts and oversee program logistics from planning to implementation. I manage our timelines, resources, and help solve challenges that arise along the way.</p>
-            </div>
-    
+          <div class="team-member">
+            <img src="" alt="Maahi" class="team-photo">
+            <h3 class="card-subtitle">Maahi Gupta</h3>
+            <p class="card-text"><strong>Role:</strong> Data Science Lead</p>
+
           </div>
+          
         </div>
-    
-        <div class="why-card">
-          <h2 class="card-subtitle">What Drives Us</h2>
-          <div class="card-content">
-            <p class="card-text">
-              We come from different schools and cities across the Bay Area, but we all share the same passion: using our coding skills for community-driven solutions. Whether it's environmental protection, health advocacy, or accessibility, we're committed to change.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-    
-    <footer class="footer">
-      <div class="footer-content">
-        <p class="copyright">© <span id="currentYear"></span> Code4Cause. All rights reserved.</p>
-        <p class="tagline">Contact us @code4cause.contact@gmail.com or our insta :@code4cause_ </p>
-        <p class="tagline">Empowering teens to create impact through code.</p>
       </div>
-    </footer>
-  <script>
-    document.getElementById("currentYear").textContent = new Date().getFullYear();
-    document.getElementById("menuButton").addEventListener("click", function () {
-      document.getElementById("mobileNav").classList.toggle("show");
-    });
-  </script>
+      <div class="why-card">
+        <h2 class="card-subtitle">Outreach Team</h2>
+        <div class="team-row">
+          <div class="team-member">
+            <img src="nehal.jpeg" alt="Nehal" class="team-photo">
+            <h3 class="card-subtitle">Nehal Barange</h3>
+            <p class="card-text"><strong>Role:</strong> Content Creator </p>
+          </div>
+          <div class="team-member">
+            <img src="" alt="Dhriti" class="team-photo">
+            <h3 class="card-subtitle">Dhriti Ganesh</h3>
+            <p class="card-text"><strong>Role:</strong> Content Creator</p>
+          </div>
+          <div class="team-member">
+            <img src="sophia.jpg" alt="Sophia" class="team-photo">
+            <h3 class="card-subtitle">Sophia Liu</h3>
+            <p class="card-text"><strong>Role:</strong> Recruitment Coordinator</p>
+          </div>
+          <div class="team-member">
+            <img src="sahana.jpeg" alt="Sahana" class="team-photo">
+            <h3 class="card-subtitle">Sahana Gopinath</h3>
+            <p class="card-text"><strong>Role:</strong> Recruitment Coordinator</p>
+          </div>
+        </div>
+      </div>
+      <div class="why-card">
+        <h2 class="card-subtitle">Operations Team</h2>
+        <div class="team-row">
+          <div class="team-member">
+            <img src="livia.JPG" alt="Livia" class="team-photo">
+            <h3 class="card-subtitle">Livia Isakson</h3>
+            <p class="card-text"><strong>Role:</strong> Events Coordinator</p>
+          </div>
+          <div class="team-member">
+            <img src="arul.png" alt="Arul" class="team-photo">
+            <h3 class="card-subtitle">Arul Rajesh</h3>
+            <p class="card-text"><strong>Role:</strong> Research Advisor</p>
+          </div>
+          <div class="team-member">
+            <img src="laasya.PNG" alt="Laasya" class="team-photo">
+            <h3 class="card-subtitle">Laasya Priya</h3>
+            <p class="card-text"><strong>Role:</strong> Project Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="why-card">
+        <h2 class="card-subtitle">What Drives Us</h2>
+        <div class="card-content">
+          <p class="card-text">
+            We come from different schools and cities across the Bay Area, but we all share the same passion: using our coding skills for community-driven solutions. Whether it's environmental protection, health advocacy, or accessibility, we're committed to change.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="copyright">© <span id="currentYear"></span> Code4Cause. All rights reserved.</p>
+      <p class="tagline">Contact us @code4cause.contact@gmail.com or our insta :@code4cause_ </p>
+      <p class="tagline">Empowering teens to create impact through code.</p>
+    </div>
+  </footer>
+</div>
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+  document.getElementById("menuButton").addEventListener("click", function () {
+    document.getElementById("mobileNav").classList.toggle("show");
+  });
+</script>
 </body>
 </html>
