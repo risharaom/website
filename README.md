@@ -30,7 +30,7 @@ The browser suite checks every main and legacy page at 360, 390, 768, and 1440 p
 
 ## Domain and publishing
 
-Until a domain is selected, `site.url` in content.json uses the repository’s conventional GitHub Pages URL, `https://risharaom.github.io/website/`. This is configuration, not a claim that hosting is already enabled.
+The production domain is `https://code4cause.com/`, served by GitHub Pages from `risharaom/website` on `master`. The checked-in CNAME file binds the custom domain. Namecheap BasicDNS has four apex A records (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a www CNAME to risharaom.github.io. Keep CNAME when publishing. A repository administrator can enable Enforce HTTPS in Settings → Pages once GitHub issues the certificate.
 
 1. Set `site.url` to your final HTTPS domain, including any subdirectory and a trailing slash.
 2. Run `npm run build` and `npm test`.
