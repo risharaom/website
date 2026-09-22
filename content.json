@@ -1,0 +1,207 @@
+{
+  "site": {
+    "name": "Code4Cause",
+    "url": "https://risharaom.github.io/website/",
+    "description": "A teen-led nonprofit getting girls into computer science and technology. 100+ chapters in 8+ countries, founded in Summer 2025.",
+    "email": "code4cause.contact@gmail.com",
+    "instagram": {
+      "label": "@code4cause_",
+      "url": "https://www.instagram.com/code4cause_/"
+    },
+    "founded": "Summer 2025",
+    "logo": "logo.jpg",
+    "footer": "Teen-led. Globally connected.",
+    "copyright": "Code4Cause. All rights reserved."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "navigation": "Main navigation",
+    "contact": "Get in touch",
+    "email": "Email us",
+    "story": "Our story",
+    "work": "Explore our work",
+    "programLink": "Read the program story",
+    "founders": "Meet the founders",
+    "home": "Back to home",
+    "footerNavigation": "Footer navigation",
+    "socialAlt": "Code4Cause — Girls in computer science. 100+ chapters in 8+ countries.",
+    "rights": "All rights reserved."
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "About us",
+      "href": "about.html"
+    },
+    {
+      "label": "Our work",
+      "href": "projects.html"
+    }
+  ],
+  "stats": [
+    {
+      "value": "100+",
+      "label": "chapters"
+    },
+    {
+      "value": "8+",
+      "label": "countries"
+    }
+  ],
+  "home": {
+    "title": "Girls in computer science | Code4Cause",
+    "eyebrow": "Girls in tech. A global community.",
+    "headline": [
+      "More girls.",
+      "More room",
+      "in tech."
+    ],
+    "intro": "We’re Code4Cause, a teen-led nonprofit helping girls build the skills, confidence, and a path into computer science.",
+    "networkLabel": "Across borders. Built by teens.",
+    "networkNote": "From a local research project to a global network.",
+    "workLabel": "The work behind the numbers",
+    "workTitle": "Real skills. Real applications.",
+    "workIntro": "Our work started with a question about trees in the Bay Area. It grew into a focus on access to technology, from girls learning to code to women setting up digital wallets.",
+    "storyLabel": "Why we started",
+    "storyTitle": "We noticed who wasn’t in the room.",
+    "storyText": "At the hackathons we went to, there were almost no other girls. In Summer 2025, we started Code4Cause. What began with GreenSight became a commitment to helping more girls find a path into computer science."
+  },
+  "collaborators": {
+    "label": "People and organizations we’ve worked with",
+    "title": "Working together, across borders.",
+    "intro": "For our work with women in Afghanistan, we worked directly with Roya Mahboob, Natalie Brunell, and Speed Wallet.",
+    "items": [
+      {
+        "name": "Digital Citizen Fund",
+        "detail": "Roya Mahboob · Founder",
+        "mark": "DCF"
+      },
+      {
+        "name": "Women in Bitcoin",
+        "detail": "Natalie Brunell · Founder",
+        "mark": "W/B"
+      },
+      {
+        "name": "Speed Wallet",
+        "detail": "Bitcoin & USDT wallets",
+        "mark": "↗"
+      }
+    ]
+  },
+  "programs": {
+    "title": "Our work | Code4Cause",
+    "eyebrow": "Our work",
+    "headline": "Technology with a real purpose.",
+    "intro": "From a first line of Python to access to a digital wallet, our work connects technical skills to something people can use.",
+    "items": [
+      {
+        "id": "greensight",
+        "number": "01",
+        "category": "Our first program · Bay Area",
+        "name": "GreenSight",
+        "headline": "From zero coding to local research.",
+        "summary": "In four weeks, middle schoolers went from no coding experience to using Python, data analysis, and machine learning to study where trees should be planted in the Bay Area.",
+        "outcome": "They wrote a research paper identifying the best tree-planting locations and shared it with local city council members.",
+        "detail": "We launched GreenSight to see what middle schoolers could do with data science and a real local problem. Students learned Python, worked with data, and used machine learning to investigate tree-planting locations in the Bay Area. Their work became a research paper that they shared with local city council members.",
+        "tags": [
+          "Python",
+          "Data analysis",
+          "Machine learning"
+        ],
+        "visualLabel": "A question close to home",
+        "visualTitle": "Where should we plant more trees?",
+        "visualNote": "GreenSight · Bay Area",
+        "duration": "4 weeks",
+        "durationLabel": "from first code to research",
+        "resultLabel": "What students made"
+      },
+      {
+        "id": "afghanistan",
+        "number": "02",
+        "category": "Access to technology · Afghanistan",
+        "name": "Women in Afghanistan",
+        "headline": "A way to receive income.",
+        "summary": "We helped Afghan women set up Bitcoin and USDT wallets, working directly with Roya Mahboob, Natalie Brunell, and Speed Wallet.",
+        "outcome": "This was part of a larger effort that has reached thousands of women in Afghanistan.",
+        "detail": "Under the Taliban, women are shut out of banks, school, and most work. A digital wallet gives them a way to receive income for their families through online education work. We worked directly with Roya Mahboob, founder of the Digital Citizen Fund, Natalie Brunell, founder of Women in Bitcoin, and Speed Wallet to help women set up Bitcoin and USDT wallets.",
+        "tags": [
+          "Digital access",
+          "Bitcoin",
+          "USDT"
+        ],
+        "visualLabel": "Access makes a difference",
+        "visualTitle": "Online work. A wallet. A way to get paid.",
+        "visualNote": "Women in Afghanistan",
+        "resultLabel": "Part of a wider effort"
+      }
+    ]
+  },
+  "about": {
+    "title": "About us | Code4Cause",
+    "eyebrow": "Our story · Est. Summer 2025",
+    "headline": "It started with who was missing.",
+    "intro": "At the hackathons we went to, there were almost no other girls in the room. We kept noticing it. In Summer 2025, we started Code4Cause.",
+    "chapters": [
+      {
+        "label": "01 / The spark",
+        "title": "Almost no other girls.",
+        "text": "At the hackathons we went to, there were almost no other girls in the room. That was the starting point for Code4Cause: wanting more girls to have a place in computer science."
+      },
+      {
+        "label": "02 / Our first program",
+        "title": "Start with a real question.",
+        "text": "We launched GreenSight to prove that middle schoolers could do real data science on a local problem. They started with zero coding experience. Over four weeks, they learned Python, data analysis, and machine learning, then wrote a research paper on the best places to plant trees in the Bay Area. They shared it with local city council members."
+      },
+      {
+        "label": "03 / A clearer focus",
+        "title": "Skills, confidence, and a path into CS.",
+        "text": "After GreenSight, we refocused on girls in tech. We wanted to help girls build technical skills and confidence, and see a path into computer science careers. Code4Cause grew to 100+ chapters in 8+ countries.",
+        "more": "That focus also led us to work with Roya Mahboob, Natalie Brunell, and Speed Wallet to help women in Afghanistan set up Bitcoin and USDT wallets. It was part of a larger effort that has reached thousands of women, giving them a way to receive income through online education work."
+      }
+    ],
+    "founderLabel": "The people who started it",
+    "founderTitle": "Three founders. One shared starting point.",
+    "founderIntro": "We’re Aarya, Risha, and Sanvi. We founded Code4Cause together in Summer 2025.",
+    "founderRole": "Co-founder",
+    "founders": [
+      {
+        "name": "Aarya Patel",
+        "image": "aarya.png",
+        "position": "50% 40%"
+      },
+      {
+        "name": "Risha Rao",
+        "image": "risha.jpg",
+        "position": "50% 45%"
+      },
+      {
+        "name": "Sanvi Bharadwaj",
+        "image": "sanvi.jpg",
+        "position": "50% 35%"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Our mission | Code4Cause",
+    "eyebrow": "Our mission",
+    "headline": "A path into computer science, for more girls.",
+    "intro": "Code4Cause focuses on getting girls into computer science and technology: building technical skills, confidence, and a path toward CS careers.",
+    "body": "We started by helping middle schoolers apply data science to a real problem in the Bay Area. Our focus grew to girls in tech, a network of chapters across countries, and work supporting women’s access to digital wallets in Afghanistan."
+  },
+  "contact": {
+    "eyebrow": "Be part of the conversation",
+    "title": "Let’s talk about what’s next.",
+    "intro": "Interested in Code4Cause as a student, parent, school, or supporter? Write to us about chapters, our work, or ways to get involved.",
+    "instagramLabel": "Follow along on Instagram"
+  },
+  "notFound": {
+    "title": "Page not found | Code4Cause",
+    "eyebrow": "404",
+    "headline": "Let’s get you back on track.",
+    "intro": "This page doesn’t exist. You can find our story, programs, and contact details from the homepage."
+  }
+}
