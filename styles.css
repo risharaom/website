@@ -1090,4 +1090,25 @@ nav a[aria-current] {
   .hero-metrics .stats>div+div {
     padding-left:25px
   }
+
+}
+
+/* Upcoming Tutoring Section */
+#upcoming {
+  text-align: center;
+}
+
+#upcoming p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#upcoming .tags,
+#upcoming .button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+  
 }
