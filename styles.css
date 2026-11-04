@@ -1108,6 +1108,32 @@ nav a[aria-current] {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+
+/* Team photo placeholders */
+.team-placeholder {
+  width: 100%;
+  height: 330px;
+  background: var(--lavender);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--purple);
+  font-size: 13px;
+}
+
+/* Match founder photo height on tablets */
+@media (max-width: 1000px) {
+  .team-placeholder {
+    height: 280px;
+  }
+}
+
+/* Match founder photo height on mobile */
+@media (max-width: 759px) {
+  .team-placeholder {
+    height: 380px;
+  }
 }
 
   
